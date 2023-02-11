@@ -1,0 +1,193 @@
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2f2f2;
+  color: #071723;
+}
+
+wrapper header {
+  background: url(../img/header.png) center no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+  padding: 5rem 3rem;
+}
+
+wrapper header .title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 50%;
+}
+
+wrapper header .title span {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* --------------------------------- */
+
+wrapper main form .label {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+wrapper main form fieldset {
+  height: 16rem;
+  margin: 3rem;
+  border: 0px;
+  padding: 1rem;
+
+}
+
+wrapper main form fieldset .input-fieldset {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+
+}
+
+wrapper main form fieldset input {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+input:checked {
+  border: 2px solid #2f3676;
+  background-color: #191847;
+}
+
+/* --------------------------------- */
+
+wrapper main form .choice {
+  height: 13rem;
+  margin: 3rem;
+  padding: 1.5rem;
+}
+
+wrapper main form .choice .counter {
+  display: flex;
+  padding-top: 1.5rem;
+}
+
+wrapper main form .choice .counter img {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+wrapper main form .choice .counter input {
+  background: #dde3e9;
+  border: 1px solid #2f3676;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  width: 4.5rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.input-error {
+  background: #f14242;
+  border: 1px solid #2f3676;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  width: 4.5rem;
+  height: 4rem;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+wrapper main form .choice .counter .counter-button {
+  background-color: #2f3676;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 3rem;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+wrapper main form .choice .counter .counter-button:hover {
+  border: 2px solid #2f3676;
+  background: #191847;
+}
+
+#decrement-button:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+/* --------------------------------- */
+
+wrapper main form .description {
+  margin: 3rem;
+  padding: 0 2rem;
+}
+
+wrapper main form .description textarea {
+  background: #dde3e9;
+  border: 1px solid #2f3676;
+  border-radius: 0.5rem;
+  color: #071723;
+  height: 8.75rem;
+  padding: 1rem;
+  resize: none;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* --------------------------------- */
+
+wrapper main form .footer {
+  padding: 2rem;
+  background: #dde3e9;
+  display: flex;
+  justify-content: space-between;
+}
+
+wrapper main form .footer .msg-footer {
+  visibility: hidden;
+  margin-left: 3rem;
+  font-size: 2rem;
+  color:#00C57C;
+}
+
+wrapper main form .footer button {
+  background: #2f3676;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+  margin-right: 3rem;
+}
+
+wrapper main form .footer button:hover {
+  border: 2px solid #2f3676;
+  background: #191847;
+}

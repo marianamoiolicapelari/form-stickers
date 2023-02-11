@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Stickers</title>
+</head>
+
+<body>
+    <wrapper>
+        <header>
+            <div class="title">Formulário <br> para compra de <br><span>Pacote de Stickers</span> </div>
+        </header>
+
+        <main>
+            <form id="form">
+                <fieldset>
+                    <legend class="label">Quais stickers?</legend>
+
+                    <div class="input-fieldset">
+                        <input class="checkbox" type="checkbox" name="react" value="React">
+                        <label for="react">React</label>
+                        <span class="checkmark"></span>
+                    </div>
+                    <div class="input-fieldset">
+                        <input class="checkbox" type="checkbox" name="vue" value="Vue">
+                        <label for="vue">Vue</label>
+                        <span class="checkmark"></span>
+                    </div>
+                    <div class="input-fieldset">
+                        <input class="checkbox" type="checkbox" name="angular" value="Angular">
+                        <label for="angular">Angular</label>
+                        <span class="checkmark"></span>
+                    </div>
+
+                </fieldset>
+
+                <div class="choice">
+                    <label class="label" name="counter-value">Quantos stickers de cada?</label>
+                    <div class="counter">
+                        <button type="button" id="decrement-button" class="counter-button" disabled>-</button>
+                        <input id="counter-value" class="input-error" type="number" name="Quantidade" placeholder="0"
+                            maxlength="3" required
+                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" />
+                        <button type="button" id="increment-button" class="counter-button">+</button>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <label class="label">Observações:</label>
+                    <textarea id="description" name="description" placeholder="Alguma dúvida? Recado?"></textarea>
+                </div>
+
+                <div class="footer">
+                    <h3 class="msg-footer">Formulário enviado com sucesso!</h3>
+                    <button id="button-form" type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
+    </wrapper>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
