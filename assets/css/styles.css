@@ -174,6 +174,13 @@ wrapper main form .footer .msg-footer {
   color:#00C57C;
 }
 
+wrapper main form .footer .show {
+  visibility: visible;
+  margin-left: 3rem;
+  font-size: 2rem;
+  color:#00C57C;
+}
+
 wrapper main form .footer button {
   background: #2f3676;
   border: none;

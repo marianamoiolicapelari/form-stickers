@@ -15,7 +15,6 @@ let disableButton = () => {
 }
 
 let inputColor = () => {
-
     if (counter.value == 0) {
         counter.style.backgroundColor = '#ff6961'
         counter.style.borderColor = '#ff0000'
@@ -25,15 +24,8 @@ let inputColor = () => {
     counter.style.borderColor = '#2f3676'
 }
 
-
-// let isFormSuccess = () => {
-//     let msgFooter = document.querySelector('.msg-footer')
-
-  
-// }
-
-
 let inputValidation = (e) => {
+    e.preventDefault()
     const check = document.querySelectorAll('.checkbox');
     const resultChecked = []
 
@@ -42,11 +34,10 @@ let inputValidation = (e) => {
     }
 
     if (resultChecked.includes(true)) {
+        document.getElementById('msg-success').classList.add('show')
         return
     }
     alert('Selecione um tipo de Sticker')
-
-    e.preventDefault()
 }
 
 form.addEventListener('submit', inputValidation)
