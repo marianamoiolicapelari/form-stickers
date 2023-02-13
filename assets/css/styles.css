@@ -216,7 +216,7 @@ wrapper main form .footer button:hover {
 
   wrapper header .title {
     font-size: 1.6rem;
-    width: 85%;
+    width: 100%;
   }
 
   wrapper header .title span {
