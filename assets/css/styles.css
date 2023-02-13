@@ -171,14 +171,14 @@ wrapper main form .footer .msg-footer {
   visibility: hidden;
   margin-left: 3rem;
   font-size: 2rem;
-  color:#00C57C;
+  color: #00C57C;
 }
 
 wrapper main form .footer .show {
   visibility: visible;
   margin-left: 3rem;
   font-size: 2rem;
-  color:#00C57C;
+  color: #00C57C;
 }
 
 wrapper main form .footer button {
@@ -197,4 +197,71 @@ wrapper main form .footer button {
 wrapper main form .footer button:hover {
   border: 2px solid #2f3676;
   background: #191847;
+}
+
+/* --------------------------------- */
+
+@media (max-width: 480px) {
+  wrapper header {
+    height: 13rem;
+    background-size: cover;
+    padding: 2rem 2rem;
+  }
+
+  wrapper main form fieldset {
+    height: 13rem;
+    margin: 1.3rem;
+  }
+
+  wrapper header .title {
+    font-size: 1.6rem;
+    width: 85%;
+  }
+
+  wrapper header .title span {
+    font-size: 2rem;
+ }
+
+  /* --------------------------------- */
+
+  wrapper main form .label {
+    font-size: 2rem;
+  }
+
+  /* --------------------------------- */
+
+  wrapper main form .choice {
+    height: 13rem;
+    margin: 1rem;
+  }
+
+  /* --------------------------------- */
+
+  wrapper main form .description {
+    margin: 1rem;
+  }
+
+  /* --------------------------------- */
+
+  wrapper main form .footer {
+    padding: 2rem;
+    background: #dde3e9;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  wrapper main form .footer .msg-footer {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+
+  wrapper main form .footer .show {
+    margin-left: 1rem;
+    font-size: 1rem;
+ }
+
+  wrapper main form .footer button {
+    margin-right: 1rem;
+  }
+
 }
