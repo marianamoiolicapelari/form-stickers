@@ -2,7 +2,6 @@ const incrementButton = document.querySelector('#increment-button')
 const decrementButton = document.querySelector('#decrement-button')
 let counter = document.querySelector('#counter-value')
 const form = document.querySelector('#form')
-const buttonForm = document.querySelector('#button-form')
 
 let value = 0
 
