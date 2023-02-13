@@ -9,7 +9,6 @@ let value = 0
 let disableButton = () => {
     if (counter.value == 0) {
         decrementButton.disabled = true
-        console.log(counter.value)
         return
     }
     decrementButton.disabled = false
