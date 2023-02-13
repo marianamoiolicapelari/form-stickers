@@ -5,7 +5,7 @@ Landing page desenvolvida em Vanilla.js
 
 ## 🎨 Layout
 
-![image]()
+![image](https://github.com/marianamoiolicapelari/form-stickers/blob/main/assets/img/layout.png)
 
 ## 🛠 Tecnologias
 
