@@ -205,7 +205,8 @@ wrapper main form .footer button:hover {
   wrapper header {
     height: 13rem;
     background-size: cover;
-    padding: 2rem 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
   }
 
   wrapper main form fieldset {
